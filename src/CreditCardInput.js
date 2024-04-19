@@ -71,8 +71,8 @@ export default class CreditCardInput extends Component {
     cardViewSize: {},
     labels: {
       name: "CARDHOLDER'S NAME",
-      number: "CARD NUMBER",
-      expiry: "EXPIRY",
+      number: "NÚMERO DE TARJETA",
+      expiry: "EXPIRACIÓN",
       cvc: "CVC/CCV",
       postalCode: "POSTAL CODE",
     },
@@ -161,7 +161,6 @@ export default class CreditCardInput extends Component {
           expiry={expiry}
           cvc={cvc} />
         <ScrollView ref="Form"
-          horizontal
           keyboardShouldPersistTaps="always"
           scrollEnabled={allowScroll}
           showsHorizontalScrollIndicator={false}
